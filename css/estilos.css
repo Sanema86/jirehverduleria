@@ -143,16 +143,15 @@ body {
     height: 4rem;
     width: auto;
   } */
- .av__don {
+  .av__don {
     text-align: center;
   }
 
-  .btn{
+  a.btn{
     font-size: 0.8rem;
-    padding: 1px;
+    padding: 2px;
     margin-bottom: 1rem;
-    position: relative;
-  }
+  } 
 
 
   .card {
@@ -169,11 +168,12 @@ body {
   .card-title{
     font-size: 0.8rem !important;
     margin: 0px;
-    padding: 0px;
+    padding-top: 0.3rem;
   }
 
   .card-text{
     font-size: 0.9rem;
+    margin: 0px;
     }
 
 }
@@ -187,7 +187,6 @@ body {
   .av__don {
     text-align: center;
   }
-
 
   .card {
     margin: auto;
