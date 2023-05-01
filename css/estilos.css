@@ -187,12 +187,12 @@ body {
   .card {
     margin: 0%;
     max-height: 80%;
-    max-width: 10%;
+    max-width: 40%;
   
   }
 
   .card-title{
-    font-size: 50% !important;
+    font-size: 30% !important;
   }
 
   .card-text{
