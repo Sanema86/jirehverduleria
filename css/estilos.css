@@ -147,15 +147,22 @@ body {
     text-align: center;
   }
 
+  .btn{
+    font-size: 0.8rem;
+    padding: 5%;
+    margin: 5%;
+  }
+
+
   .card {
     max-height: 92%;
-    max-width: 75%;
-    align-items: center center;
-    text-align: center center;
+    max-width: 85%;
+    padding: 0px;
+    margin: 0px;
   }
 
   .card-title{
-    font-size: 70% !important;
+    font-size: 60% !important;
     margin: 0rem;
     padding: 0rem;
   }
@@ -164,8 +171,6 @@ body {
     font-size: 70%;
     
   }
-
-
 
 }
 
@@ -179,25 +184,23 @@ body {
     text-align: center;
   }
 
-  .card-img-top{
-    width: 60%;
-    height: 60%;
-  }
 
   .card {
-    margin: 0%;
+    margin: auto;
+    padding: auto;
     max-height: 80%;
-    max-width: 40%;
+    max-width: 80%;
   
   }
 
   .card-title{
-    font-size: 30% !important;
+    font-size: 50% !important;
   }
 
   .card-text{
-    font-size: 70%;
+    font-size: 50%;
   }
 
 }
+
 
