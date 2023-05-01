@@ -86,13 +86,6 @@ body {
   --bs-navbar-toggler-border-color: rgb(255, 255, 255); */
 }
 
-/* .navbar-toggler-icon{
---bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-toggler-icon: hover {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%280, 139, 8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-} */
 
 .navbar-toggler {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -110,14 +103,6 @@ body {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-/* a {
-  color: #fff !important;
-}
-
-a:hover {
-  color: var(--green-hover-color) !important;
-} */
-
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
@@ -125,6 +110,8 @@ a:hover {
     height: 5rem;
     width: auto;
   } */
+
+  
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -151,7 +138,7 @@ a:hover {
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* .navbar-brand img {
     height: 4rem;
     width: auto;
@@ -160,10 +147,30 @@ a:hover {
     text-align: center;
   }
 
+  .card {
+    max-height: 92%;
+    max-width: 75%;
+    align-items: center center;
+    text-align: center center;
+  }
+
+  .card-title{
+    font-size: 70% !important;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .card-text{
+    font-size: 70%;
+    
+  }
+
+
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 200px) {
+@media (max-width: 0px) {
   /* .navbar-brand img {
     height: 3rem;
     width: auto;
@@ -172,13 +179,25 @@ a:hover {
     text-align: center;
   }
 
-  /* .card {
-    max-height: 50%;
-    --bs-card-group-margin: 0.75rem;
+  .card-img-top{
+    width: 60%;
+    height: 60%;
   }
 
-  .card>img {
-    max-height: 50%;
-  } */
+  .card {
+    margin: 0%;
+    max-height: 80%;
+    max-width: 10%;
+  
+  }
+
+  .card-title{
+    font-size: 65% !important;
+  }
+
+  .card-text{
+    font-size: 70%;
+  }
 
 }
+
