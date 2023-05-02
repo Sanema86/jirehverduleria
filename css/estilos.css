@@ -104,11 +104,11 @@ body {
   opacity: 0.75;
 }
 
-.shadow__img__logo{
+/* .shadow__img__logo{
   box-shadow:  0 0.15rem 0 0.15rem rgba(25, 135, 84, 0.219);
   border-radius: 8rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
+} */
 
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -213,11 +213,19 @@ body {
     margin: 0px;
     }
 
+
+  .col-md-3{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+  }
+
   .logo__large{
     max-height: 20%;
     max-width: 20%;
   }
 
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 0px) {
