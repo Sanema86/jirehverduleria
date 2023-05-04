@@ -29,7 +29,7 @@
   <!-- <<< BODY >>> -->
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html"
           ><img class="logo__nav" src="img/LogoNav.png" alt="Jireh"
@@ -53,7 +53,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Jireh</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -106,7 +106,9 @@
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
-              type="search"
+              type="text"
+              id="buscador"
+              name="buscador"
               placeholder="Papa, cebolla, zanahoria..."
               aria-label="Search"
             />
@@ -117,14 +119,14 @@
     </nav>
 
     <div class="text-center text-white container pt-3">
-      <!-- <img src="img/logoLarge.png" class="img-fluid" alt="Logo" /> -->
-      <h1>Jireh - Ofertas!</h1>
+      <img src="img/logoLarge.png" class="img-fluid" alt="Logo" />
+      <h1>Ofertas!</h1>
       <p>Calidad a un excelente precio.</p>
     </div>
 
     <!-- <<< BOLSA DE PAPA >>> -->
     <main class="container">
-      <div class="card text-bg-dark border my-3 mx-auto">
+      <div class="card text-bg-dark my-3 mx-auto">
         <img src="img/bolsa de papa.png" class="card-img" alt="..." />
         <div class="card-img-overlay">
           <h5 class="card-title text-center"></h5>
@@ -134,7 +136,7 @@
       </div>
 
       <!-- <<< BOLSA DE CEBOLLA >>> -->
-      <div class="card text-bg-dark border my-3 mx-auto">
+      <div class="card text-bg-dark my-3 mx-auto">
         <img src="img/bolsa de cebolla.png" class="card-img" alt="..." />
         <div class="card-img-overlay">
           <h5 class="card-title text-center"></h5>
@@ -143,7 +145,7 @@
         </div>
       </div>
       <!-- <<< TOMATE PERITA >>> -->
-      <div class="card text-bg-dark border my-3 mx-auto">
+      <div class="card text-bg-dark my-3 mx-auto">
         <img src="img/tomate-peritaX2kg.png" class="card-img" alt="..." />
         <div class="card-img-overlay">
           <h5 class="card-title text-center"></h5>
@@ -152,7 +154,7 @@
         </div>
       </div>
 
-      <div class="card text-bg-dark border my-3 mx-auto">
+      <div class="card text-bg-dark my-3 mx-auto">
         <img src="img/bolsa de papa.png" class="card-img" alt="..." />
         <div class="card-img-overlay">
           <h5 class="card-title text-center"></h5>
@@ -161,7 +163,7 @@
         </div>
       </div>
 
-      <div class="card text-bg-dark border my-3 mx-auto">
+      <div class="card text-bg-dark my-3 mx-auto">
         <img src="img/bolsa de papa.png" class="card-img" alt="..." />
         <div class="card-img-overlay">
           <h5 class="card-title text-center"></h5>
@@ -201,5 +203,6 @@
     ></script>
 
     <script src="js/main.js"></script>
+    <script src="js/buscador.js"></script>
   </body>
 </html>

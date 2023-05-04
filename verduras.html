@@ -28,12 +28,12 @@
   <!-- <<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>> -->
   <!-- <<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>> -->
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html"
           ><img class="logo__nav" src="img/LogoNav.png" alt="Jireh"
         /></a>
-        
+
         <button
           class="navbar-toggler"
           type="button"
@@ -48,7 +48,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Jireh</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -101,11 +103,15 @@
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
-              type="search"
+              type="text"
+              id="buscador"
+              name="buscador"
               placeholder="Papa, cebolla, zanahoria..."
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
           </form>
         </div>
       </div>
@@ -113,19 +119,16 @@
 
     <div class="text-center text-white container pt-3">
       <img src="img/logoLarge.png" class="img-fluid" alt="Logo" />
-      <h1>Jireh - Verduras.</h1>
+      <h1>Verduras</h1>
       <p>Calidad a un excelente precio.</p>
     </div>
 
-    <main class="p-5 container">
+    <main class="p-3 container" id="id__verduras">
       <div>
         <section class="row align-items-lg-center">
           <!-- <<<<<<<<<<<<<<< PAPA >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img src="img/papablanca.jpg" class="card-img-top" alt="Sites" />
               <div class="card-body text-center">
                 <h5 class="card-title fs-6">Papa</h5>
@@ -136,14 +139,12 @@
           </article>
           <!-- <<<<<<<<<<<<<<< CEBOLLA >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/cebolla01.jpg"
                 class="card-img-top bg-third-color"
-                alt="Sites"/>
+                alt="Sites"
+              />
               <div class="card-body text-center">
                 <h5 class="card-title fs-6">Cebolla</h5>
                 <p class="card-text">2kg.</p>
@@ -153,10 +154,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< Zanahoria >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/zanahoria01.jpg"
                 class="card-img-top bg-third-color"
@@ -171,10 +169,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< TOMATE REDONDO >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card d-flex text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/tomate-redondo.jpg"
                 class="card-img-top bg-third-color"
@@ -189,10 +184,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< PAPA >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/papablanca.jpg"
                 class="card-img-top bg-third-color"
@@ -207,10 +199,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< MORRON >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/morron-rgy.jpg"
                 class="card-img-top bg-third-color"
@@ -225,10 +214,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< PAPA >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/papablanca.jpg"
                 class="card-img-top bg-third-color"
@@ -243,10 +229,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< PAPA >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/papablanca.jpg"
                 class="card-img-top bg-third-color"
@@ -261,10 +244,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< PAPA >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/papablanca.jpg"
                 class="card-img-top bg-third-color"
@@ -279,10 +259,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< CALABAZA >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/papablanca.jpg"
                 class="card-img-top bg-third-color"
@@ -297,10 +274,7 @@
           </article>
           <!-- <<<<<<<<<<<<<<< ZAPALLITO >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/papablanca.jpg"
                 class="card-img-top bg-third-color"
@@ -315,10 +289,457 @@
           </article>
           <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
           <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
-            <div
-              class="card text-bg-dark border-light m-1"
-              style="width: 10rem"
-            >
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
+              <img
+                src="img/papablanca.jpg"
+                class="card-img-top bg-third-color"
+                alt="Sites"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6">Zapallo</h5>
+                <p class="card-text">2kg.</p>
+                <a href="#" class="btn btn-success">$450</a>
+              </div>
+            </div>
+          </article>
+          <!-- <<<<<<<<<<<<<<< ZAPALLO >>>>>>>>>>>>>>> -->
+          <article class="col-4 col-sm-4 col-md-3 col-lg-2 d-flex">
+            <div class="card text-bg-dark m-1" style="width: 10rem">
               <img
                 src="img/papablanca.jpg"
                 class="card-img-top bg-third-color"
@@ -333,6 +754,11 @@
           </article>
         </section>
       </div>
+      <div class="text-center text-white container pt-3">
+        <a href="verduras.html#id__verduras"
+          ><i class="bi bi-arrow-up-circle fs-2"></i
+        ></a>
+      </div>
     </main>
 
     <footer class="bg-dark pt-1 mt-5">
@@ -346,7 +772,9 @@
             ><i class="bi bi-facebook fs-3"></i
           ></a>
 
-          <a href="https://m.me/jireh.fyv" target="_black"><i class="bi bi-messenger fs-3"></i></a>
+          <a href="https://m.me/jireh.fyv" target="_black"
+            ><i class="bi bi-messenger fs-3"></i
+          ></a>
 
           <a href="https://wa.me/543434050302" target="_black"
             ><i class="bi bi-whatsapp fs-3"></i
@@ -356,7 +784,6 @@
           >&copy; 2023 @Sema. Todos los derechos y los izquierdos reservados.
         </small>
       </div>
-
     </footer>
 
     <script
@@ -366,5 +793,6 @@
     ></script>
 
     <script src="js/main.js"></script>
+    <script src="js/buscador.js"></script>
   </body>
 </html>
