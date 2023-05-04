@@ -30,6 +30,7 @@ a{
 body {
   font-family: "Raleway", sans-serif;
   background-color: var(--bg-home-color);
+  list-style-type: none;
 }
 
 /* ***** Bootstrap Styles ***** */
@@ -44,6 +45,7 @@ body {
 
 .card {
   max-height: 35rem;
+  box-shadow: 0rem 0 0.5rem 0.2rem rgba(3, 104, 8, 0.329);
 }
 
 .form-control:focus {
@@ -81,6 +83,10 @@ body {
 .av__don__bosco__cel{
  visibility: hidden;
  display: none;
+}
+
+.filtro{
+  display: none;
 }
 
 .navbar-dark {
@@ -163,7 +169,7 @@ body {
   .av__don__bosco__cel{
    text-align: center;
    visibility: visible;
-   display: block;
+   display: flex;
    color: white;
   }
 
@@ -179,9 +185,9 @@ body {
     height: 4rem;
     width: auto;
   } */
-  .av__don {
+  /* .av__don {
     text-align: center;
-  }
+  } */
 
   a.btn{
     font-size: 0.8rem;
@@ -233,9 +239,9 @@ body {
     height: 3rem;
     width: auto;
   } */
-  .av__don {
+  /* .av__don {
     text-align: center;
-  }
+  } */
 
   .card {
     margin: auto;
